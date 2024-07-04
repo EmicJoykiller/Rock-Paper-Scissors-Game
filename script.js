@@ -4,4 +4,17 @@ function getRandomComputerResult() {
     return options[randomIndex];
 }
 
-console.log(getRandomComputerResult());
+
+function hasPlayerWonTheRound(player, computer) {
+    if ((player === "Rock" && computer === "Scissors") ||
+        (player === "Scissors" && computer === "Paper") ||
+        (player === "Paper" && computer === "Rock")) {
+        return true;
+    } else {
+        return false;
+    }
+
+}
+
+console.log(hasPlayerWonTheRound("Rock", "Scissors"));
+console.log(hasPlayerWonTheRound("Scissors", "Rock")); 
