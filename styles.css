@@ -88,3 +88,13 @@ h1 {
   display: none;
   margin: 20px auto;
 }
+
+.options-container {
+  color: rgb(255, 106, 210);
+}
+
+.results-container {
+  color: rgb(72, 159, 255);
+  font-weight: bolder;
+  font-size: xx-large;
+}
